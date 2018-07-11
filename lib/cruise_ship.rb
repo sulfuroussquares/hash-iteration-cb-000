@@ -1,10 +1,10 @@
- passengers = {
- suite_a: "Amanda Presley",
- suite_b: "Seymour Hoffman",
- suite_c: "Alfred Tennyson",
- suite_d: "Charlie Chaplin",
- suite_e: "Crumpet the Elf"
- }
+# passengers = {
+# suite_a: "Amanda Presley",
+# suite_b: "Seymour Hoffman",
+# suite_c: "Alfred Tennyson",
+# suite_d: "Charlie Chaplin",
+# suite_e: "Crumpet the Elf"
+# }
 
 def select_winner(passengers)
   inner = ""
@@ -12,7 +12,6 @@ def select_winner(passengers)
     if suite == :suite_a && name.start_with?("A")
       winner = name
     end
-    winner
   end
 
 end
